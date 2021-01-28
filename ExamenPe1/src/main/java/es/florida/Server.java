@@ -46,10 +46,11 @@ public class Server {
                             continue label80;
                         }
                         System.out.println("Introduce un comando");
+                        printer.println("Introduce un comando");
 
                             if (line.equals(command) ) {
                                 System.out.println("Enemy spotted");
-
+                                printer.println("Enemy spotted");
                             }
 
             }
